@@ -1,0 +1,284 @@
+* {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.grid-container {
+  width: 60%;
+  height: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+button {
+  height: 25%;
+  border: solid 2px white;
+  border-radius: 0px;
+  background-color: #9A7C68;
+  margin-right: 2%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+button:hover {
+  box-shadow: 2.5px 2.5px 20px white;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 5%;
+  line-height: 120%;
+}
+
+.main-image-container {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  margin-left: -1px;
+  background-image: url(images/vert-cows.jpeg);
+  background-size: cover;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  display: block;
+  float: right; 
+  vertical-align: top;
+}
+
+.gray-circle:hover {
+  content: url('images/icons/white-circle.png');
+  height: 25px;
+  width: 25px;
+}
+
+.arrow-button {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  position: relative;
+  top: 50%;
+}
+
+.left-arrow:hover {
+  content: url('images/left-arrow-hover.png');
+  height: 50px;
+  width: 50px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 0px;
+}
+
+.right-arrow:hover {
+  content: url('images/right-arrow-hover.png');
+  height: 50px;
+  width: 50px;
+}
+
+.small-box-text {
+  font-size: 18px;
+  color: white;
+  margin-top: 5%; 
+}
+
+.box {
+  box-sizing: border-box;
+  width: 33.3%;
+  height: 33.3333%;
+  color: #FFF;
+  font-family: Oswald;
+  text-align: center;
+  padding: 5%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box-1 {
+  display: inline-flex;
+  width: 66.6%;
+  background-color: #9A7C68;
+  box-sizing: border-box;
+  height: 33.3333%;
+  color: #FFF;
+  font-family: Oswald;
+  padding: 5%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.button-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.box-2 {
+  background-color: #746663;
+}
+
+.box-2:hover {
+  content: url(images/fenced-in-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.box-3 {
+  background-color: #775441;
+}
+
+.box-3:hover {
+  content: url(images/furry-face-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.box-4 {
+  background-color: #1D1912;
+}
+
+.box-4:hover {
+  content: url(images/hairy-hungry-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.box-5 {
+  background-color: #9A7C68;
+}
+
+.box-5:hover {
+  content: url(images/serious-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.box-6 {
+  background-color: #B8A38C;
+}
+
+.box-6:hover {
+  content: url(images/smoosh-face-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.box-7 {
+  background-color: #775441;
+}
+
+.box-7:hover {
+  content: url(images/cloudy-drooly-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.box-8 {
+  background-color: #B8A38C;
+}
+
+.box-8:hover {
+  content: url(images/stormy-cow.jpeg);
+  object-fit: cover;
+  padding: 0;
+  transition: .25s;
+}
+
+.logo {
+  width: 110px;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    background-attachment: fixed;
+    background-image: url("images/vert-cows.jpeg");
+    background-color: #9A7C68;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -110px;
+  }
+
+  .main-image-container {
+    display: none;
+  }
+
+  .main-image {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100%;
+    margin-top: 78%;
+    align-content: flex-end;
+  }
+
+  .logo {
+    width: 85px;
+  }
+  
+  h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 3%;
+  }
+
+  p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 5%;
+  line-height: 120%;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  button {
+    height: 22%;
+  }
+
+  .button-logo {
+  width: 14px;
+  height: 14px;
+}
+
+  .box {
+    height: 25%;
+  }
+
+  .box-1 {
+    height: 25%;
+    overflow: scroll;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+}
