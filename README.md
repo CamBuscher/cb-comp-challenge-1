@@ -17,7 +17,7 @@ Here is what my final page ended up looking like on desktop and mobile.
 
 ## Desktop
 
-[Imgur](https://i.imgur.com/qsVrFDF.jpg)
+![Desktop Version](https://i.imgur.com/qsVrFDF.jpg)
 
 ## Mobile
 
