@@ -221,9 +221,8 @@ p {
     background-attachment: fixed;
     background-image: url("images/phone-cows-2.jpeg");
     background-color: #9A7C68;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: -5px -160px;
+    background-position: -150px -300px;
   }
 
   .main-image-container {
