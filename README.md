@@ -16,4 +16,5 @@ The comp was based on this image, found at the assignment page: http://frontend.
 Here is what my final page ended up looking like on desktop and mobile. 
 
 ![Desktop version of my site](https://imgur.com/a/izJON)
+
 ![Mobile version of my site](https://imgur.com/a/G2N7s)
