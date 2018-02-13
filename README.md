@@ -15,10 +15,10 @@ The comp was based on this image, found at the assignment page: http://frontend.
 
 Here is what my final page ended up looking like on desktop and mobile. 
 
-##Desktop
+## Desktop
 
 [Imgur](https://i.imgur.com/qsVrFDF.jpg)
 
-##Mobile
+## Mobile
 
 ![Mobile version of my site](https://i.imgur.com/vtpmIUZ.jpg)
