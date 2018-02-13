@@ -17,4 +17,4 @@ Here is what my final page ended up looking like on desktop and mobile.
 
 ![Desktop version of my site](https://i.imgur.com/yZPSjLo.jpg)
 
-![Mobile version of my site]((https://i.imgur.com/vtpmIUZ.jpg)
+![Mobile version of my site](https://i.imgur.com/vtpmIUZ.jpg)
